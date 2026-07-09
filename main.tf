@@ -101,7 +101,7 @@ resource "aws_security_group" "web" {
 
 resource "aws_instance" "web" {
 
-  ami           = "ami-0ba6f2c4de657798c"
+  ami           = "your_ami"
   instance_type = var.instance_type
 
   key_name = "terraform-key"
